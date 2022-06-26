@@ -6,6 +6,12 @@ This sandbox shows how to trace a kafka application.
 
 ## Get Started
 
+Create a docker network:
+
+```shell
+docker network create kafka-opentelemetry-sandbox_network
+```
+
 Run Jaeger:
 
 ```shell
