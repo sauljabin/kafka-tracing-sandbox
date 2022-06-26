@@ -40,6 +40,13 @@ Spans:
 <img alt="spans" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/spans.png">
 </p>
 
+## Interesting Links
+
+- [OpenTelemetry](https://opentelemetry.io/docs/instrumentation/java/getting-started/)
+- [OpenTelemetry Configurations](https://github.com/open-telemetry/opentelemetry-java/blob/main/sdk-extensions/autoconfigure/README.md)
+- [OpenTelemetry Kafka Instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation/tree/main/instrumentation/kafka)
+- [Jaeger](https://www.jaegertracing.io/docs/1.35/getting-started/)
+
 ## Development Commands
 
 Generate Avro Schemas:
