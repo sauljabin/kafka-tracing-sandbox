@@ -89,6 +89,11 @@ services:
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: kafka:9092
       SCHEMA_REGISTRY_KAFKASTORE_TOPIC: schema-registry.schemas
       SCHEMA_REGISTRY_KAFKASTORE_TOPIC_REPLICATION_FACTOR: '1'
+      SCHEMA_REGISTRY_OPTS: -javaagent:/home/appuser/opentelemetry-javaagent.jar
+      OTEL_SERVICE_NAME: schema-registry
+      OTEL_EXPORTER_JAEGER_ENDPOINT: 'http://jaeger:14250'
+      OTEL_TRACES_EXPORTER: jaeger
+      OTEL_JAVAAGENT_ENABLED: true
     ports:
       - 8081:8081
     restart: on-failure
