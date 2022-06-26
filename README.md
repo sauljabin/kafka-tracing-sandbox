@@ -29,11 +29,11 @@ Run Consumer:
 ## Screenshots
 
 <p align="center">
-<img alt="dashboard" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/search.png">
+<img alt="search" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/search.png">
 </p>
 
 <p align="center">
-<img alt="dashboard" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/spans.png">
+<img alt="spans" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/spans.png">
 </p>
 
 ## Development Commands
