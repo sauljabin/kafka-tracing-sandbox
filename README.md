@@ -1,6 +1,6 @@
-# Kafka OTEL Sandbox
+# Kafka Tracing Sandbox
 
-This sandbox shows how to trace a kafka application.
+This sandbox shows how to trace a kafka application using [OpenTelemetry](https://opentelemetry.io).
 
 > This repository is for educational purposes
 
