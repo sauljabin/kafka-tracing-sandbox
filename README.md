@@ -28,9 +28,13 @@ Run Consumer:
 
 ## Screenshots
 
+Search:
+
 <p align="center">
 <img alt="search" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/search.png">
 </p>
+
+Tags:
 
 <p align="center">
 <img alt="spans" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/spans.png">
