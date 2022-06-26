@@ -93,6 +93,7 @@ services:
       OTEL_SERVICE_NAME: schema-registry
       OTEL_EXPORTER_JAEGER_ENDPOINT: 'http://jaeger:14250'
       OTEL_TRACES_EXPORTER: jaeger
+      OTEL_METRICS_EXPORTER: none
       OTEL_JAVAAGENT_ENABLED: true
     ports:
       - 8081:8081

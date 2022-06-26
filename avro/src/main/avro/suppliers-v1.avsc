@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "Supplier",
+  "namespace": "kafka.sandbox.avro",
+  "version": "1",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "country",
+      "type": "string"
+    }
+  ]
+}
