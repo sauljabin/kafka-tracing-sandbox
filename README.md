@@ -9,7 +9,7 @@ This sandbox shows how to trace a kafka application using [OpenTelemetry](https:
 Create a docker network:
 
 ```shell
-docker network create kafka-opentelemetry-sandbox_network
+docker network create kafka-tracing-sandbox_network
 ```
 
 Run Jaeger:
@@ -37,13 +37,13 @@ Run Consumer:
 Search:
 
 <p align="center">
-<img alt="search" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/search.png">
+<img alt="search" src="https://raw.githubusercontent.com/sauljabin/kafka-tracing-sandbox/main/screenshots/search.png">
 </p>
 
 Spans:
 
 <p align="center">
-<img alt="spans" src="https://raw.githubusercontent.com/sauljabin/kafka-opentelemetry-sandbox/main/screenshots/spans.png">
+<img alt="spans" src="https://raw.githubusercontent.com/sauljabin/kafka-tracing-sandbox/main/screenshots/spans.png">
 </p>
 
 ## Interesting Links

@@ -1,2 +1,2 @@
-rootProject.name = "kafka-opentelemetry-sandbox"
+rootProject.name = "kafka-tracing-sandbox"
 include("avro", "producer", "consumer")
